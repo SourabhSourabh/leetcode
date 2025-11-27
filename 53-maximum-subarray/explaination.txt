@@ -1,0 +1,6 @@
+Kadane’s Intuition (Short & Complete)
+You move through the array while keeping a running sum of your current subarray.
+If this running sum ever becomes negative, it will always hurt any future subarray you try to build.
+(Because adding a negative prefix to anything positive makes it smaller.)
+So the moment your running sum goes negative, you discard it completely and start a new subarray from the next element.
+All the while, you track the maximum running sum you’ve seen at any point — that’s the best subarray.
