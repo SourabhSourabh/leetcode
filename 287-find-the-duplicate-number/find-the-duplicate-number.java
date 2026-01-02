@@ -4,14 +4,14 @@ class Solution {
     
     {
 
-        Solution obj = new Solution();
+
         for(int i=0;i<500;i++){
-            obj.findDuplicate(null);
+findDuplicate(null);
         }
 
 
     }
-    public int findDuplicate(int[] nums) {
+    public static int findDuplicate(int[] nums) {
         
 
         if(nums==null)return -1;
