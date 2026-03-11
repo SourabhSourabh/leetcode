@@ -24,10 +24,10 @@ class Solution {
             }
 
             else{
-                return cur;
+                break;
             }
         }
 
-        return null;
+        return cur;
     }
 }
